@@ -3,5 +3,5 @@
 set -e
 export PATH=node_modules/.bin:$PATH
 
-json-server --watch dist/db/data.json
+json-server --watch src/db/data.json
 

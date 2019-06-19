@@ -14,8 +14,7 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "esModuleInterop": true,
-    "typeRoots": ["./node_modules/@types"],
-    "resolveJsonModule": true
+    "typeRoots": ["./node_modules/@types"]
   },
   "include": ["src", "src/**/*.json"],
   "exclude": ["node_modules"]
