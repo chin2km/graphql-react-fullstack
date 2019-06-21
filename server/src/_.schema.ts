@@ -1,4 +1,4 @@
-import { GraphQLObjectType, GraphQLList, GraphQLNonNull, GraphQLString, GraphQLInt } from 'graphql';
+import { GraphQLObjectType, GraphQLList, GraphQLNonNull, GraphQLString, GraphQLInt, GraphQLSchema } from 'graphql';
 import fetch from 'node-fetch';
 import { IWork } from './db/MyData';
 
@@ -122,3 +122,24 @@ export const rootMutationType = new GraphQLObjectType({
         }
     })
 });
+
+
+export const SCHEMA = new GraphQLSchema({
+    query: rootQueryType,
+    mutation: rootMutationType
+})
+
+
+/**
+ * Express with schema
+ */
+/*
+ const app = express();
+ app.use("/graphql", expressGraphQL({
+   graphiql: true,
+   schema: SCHEMA
+ }))
+ app.listen(3333, () => {
+     console.log("http://localhost:3333/graphql");
+})
+*/

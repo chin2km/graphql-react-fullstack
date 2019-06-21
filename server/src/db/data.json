@@ -3,6 +3,109 @@
     {
       "id": 0,
       "name": "Built by chin2km",
+      "tags": ["ReactJs", "StyledComponents", "Typescript"],
+      "images": 4
+    },
+    {
+      "id": 1,
+      "name": "StyleLounge",
+      "tags": ["ReactJs", "StyledComponents", "Typescript"],
+      "images": 5
+    },
+    {
+      "id": 2,
+      "name": "Halla",
+      "tags": ["ReactJs", "MaterialUi", "RabbitMq", "MongoDb", "WebSockets"],
+      "images": 7
+    },
+    {
+      "id": 3,
+      "name": "Designers Portal",
+      "tags": ["AngularJs", "MaterialUi"],
+      "images": 4
+    },
+    {
+      "id": 4,
+      "name": "StarWars",
+      "tags": ["ReactJs", "Redux", "ResponsiveUi", "MaterialUi"],
+      "images": 4
+    },
+    {
+      "id": 5,
+      "name": "Workflow System",
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "images": 4
+    },
+    {
+      "id": 6,
+      "name": "Fantasy League",
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "images": 3
+    },
+    {
+      "id": 7,
+      "name": "Glasswall",
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "images": 4
+    },
+    {
+      "id": 8,
+      "name": "OnePush",
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "images": 4
+    },
+    {
+      "id": 9,
+      "name": "Infusion",
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "images": 2
+    },
+    {
+      "id": 10,
+      "name": "Leadersboard",
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "images": 3
+    },
+    {
+      "id": 11,
+      "name": "Assets Syncer",
+      "tags": ["ElectronJs", "AngularJs", "Desktop"],
+      "images": 1
+    },
+    {
+      "id": 12,
+      "name": "Solution Studio",
+      "tags": ["WPF", "XAML", "Desktop"],
+      "images": 3
+    },
+    {
+      "id": 13,
+      "name": "Groups",
+      "tags": ["WPF", "XAML", "Desktop"],
+      "images": 6
+    },
+    {
+      "id": 14,
+      "name": "Learning Paths",
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "images": 3
+    },
+    {
+      "id": 15,
+      "name": "Snake & Ladder Flexbox Board",
+      "tags": ["ReactJs", "Flexbox"],
+      "images": 1
+    },
+    {
+      "id": 16,
+      "name": "Chin2km Portfolio old",
+      "tags": ["AngularJs", "ResponsiveUi", "UI/UX"],
+      "images": 7
+    }
+  ],
+  "chats": [
+    {
+      "id": 0,
       "chat": [
         "'Built by chin2km' is my works portfolio <b class='emoji'>😇</b> the site you are browsing now! Its a responsive web application built using React <b class='emoji'>❤️</b>",
         "Its a PWA too. By being a PWA its installable as a webapp on Mobile/Desktop. And it works offline too <b class='emoji'>⚡️</b>",
@@ -10,8 +113,6 @@
         "I had a portfolio in the past which was built using AngularJs. Here -> <a href='http://chin2km.github.io/chin2km-old-portfolio' target='_blank' class='fancy'>http://chin2km.github.io/chin2km-old-portfolio</a>",
         "I loved building this, and found it difficult to give it a name and finally I settled with the name \"built by chin2km\" <b class='emoji'>👻</b> "
       ],
-      "tags": ["ReactJs", "StyledComponents", "Typescript"],
-      "images": 4,
       "link": [
         "here is the link to the application..",
         "<a href='http://chin2km.github.io' target='_blank' class='fancy'>http://chin2km.github.io</a>",
@@ -21,7 +122,6 @@
     },
     {
       "id": 1,
-      "name": "StyleLounge",
       "chat": [
         "'StyleLounge' is one of the best company I've worked for. It is a startup in Hamburg. I was an employee for them for over an year. It is a Fashion meta search Web application.",
         "I was a Full-stack NodeJs developer for them. Together we built an amazing Webapp, which is elegant, easy and intuitive to use and an extraordinary reactive message driven micro-service architecture for the products inventory.",
@@ -29,8 +129,6 @@
         "We wrote our micro-services in TypeScript and used technologies like RxJs, RabbitMq, ElasticSearch, MongoDb and 'n' number of other cutting edge tools and technologies...",
         "I loved working with this team and the company is one of the best!.  <b class='emoji'> ❤️❤️❤️</b> "
       ],
-      "tags": ["ReactJs", "StyledComponents", "Typescript"],
-      "images": 5,
       "link": [
         "the code base is not open sourced, but the Webapp is live <b class='emoji'>🚀</b>",
         "<a href='https://www.stylelounge.fr/Vetements' target='_blank' class='fancy'>https://www.stylelounge.fr/Vetements</a>"
@@ -38,7 +136,6 @@
     },
     {
       "id": 2,
-      "name": "Halla",
       "chat": [
         "'Halla' is my favourite pet project. It is a Simple real-time persistent Chat application. I built it in 2018 to learn few key technologies.",
         "It consists of 3 applications. And these are the key technologies I used in them.<br/>\n            1) halla-client: ReactJs, Socket.IO, Redux, RxJs, Redux-observable, Ramda, MomentJs <br/>\n            2) halla-db-server: RabbitMq, MongoDb, Mongoose <br/>\n            3) halla-socket-server: Socket.IO, RabbitMq <br/>\n            ",
@@ -46,8 +143,6 @@
         "I wrote these apps in TypeScript. The RabbitMq and MongoDb are installed as docker images.",
         "I learned a lot through this project and loved it... <b class='emoji'>❤️❤️❤️</b> "
       ],
-      "tags": ["ReactJs", "MaterialUi", "RabbitMq", "MongoDb", "WebSockets"],
-      "images": 7,
       "link": [
         "here is the link to the Github repo..",
         "<a href='http://github.com/chin2km/halla' target='_blank' class='fancy'>http://github.com/chin2km/halla</a>"
@@ -55,7 +150,6 @@
     },
     {
       "id": 3,
-      "name": "Designers Portal",
       "chat": [
         "Designers Portal is a online shop for one of the well known Sports Shoes brand",
         "It allows the shoe designers in the company to showcase their work in progress designs and also allows them to see the designs from other designers",
@@ -63,20 +157,15 @@
         "Its built using AngularJs, Material bootstrap",
         "I was the main developer in the team. I enjoyed developing it and giving inputs on UI/UX too"
       ],
-      "tags": ["AngularJs", "MaterialUi"],
-      "images": 4,
       "link": null
     },
     {
       "id": 4,
-      "name": "StarWars",
       "chat": [
         "'StarWars - The Dark Side' is a pet application I developed for mastering in the (then) new technologies like React Redux Redux-Saga etc",
         "This application makes use of <a href='http://swapi.co' target='_blank' class='fancy'>http://swapi.co</a> endpoint to display details about people and things in StarWar",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["ReactJs", "Redux", "ResponsiveUi", "MaterialUi"],
-      "images": 4,
       "link": [
         "here is the link to the application..",
         "<a href='http://chin2km.github.io/React-Redux-Tuto' target='_blank' class='fancy'>http://chin2km.github.io/React-Redux-Tuto</a>"
@@ -84,7 +173,6 @@
     },
     {
       "id": 5,
-      "name": "Workflow System",
       "chat": [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gdignissimos ducimus qui blanditiis praesentium voluptatum deleniti.",
         "Ut enim ad minim veniam, quis nostrud exercitation",
@@ -92,45 +180,34 @@
         "Excepteur sint occaecat cupidatat non proident quibusdam et aut officiis debitis aut rerum necessitatibus saepe even.",
         "I laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ❤️"
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
-      "images": 4,
       "link": null
     },
     {
       "id": 6,
-      "name": "Fantasy League",
       "chat": [
         "'Fantasy League' is a Game where Cricket Fans in a big Corporate predict the outcome of Cricket matches and earn point when their predictions are correct",
         "I used AngularJs and Materialize.css to build it",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
-      "images": 3,
       "link": null
     },
     {
       "id": 7,
-      "name": "Glasswall",
       "chat": [
         "'Glasswall' is an Incidents Management tool built for a big corporate in India. This tool allows the HR team in the company to effectively keep track of incidents.",
         "It had functionalities like Excel reports, calendar management, admin panels and a very complex dashboard.",
         "I used AngularJs and Materialize.css to build it",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
-      "images": 4,
       "link": null
     },
     {
       "id": 8,
-      "name": "OnePush",
       "chat": [
         "'OnePush' is on of my pet application to do complex searches in Github repositories.",
         "I used AngularJs and Materialize.css to build it",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
-      "images": 4,
       "link": [
         "here is the link to the application..",
         "<a href='http://chin2km.github.io/Angular-Again' target='_blank' class='fancy'>http://chin2km.github.io/Angular-Again</a>"
@@ -138,64 +215,49 @@
     },
     {
       "id": 9,
-      "name": "Infusion",
       "chat": [
         "'Infusion' is the website for annual sports meet for a big Corporate Company in India.",
         "It had functionalities like admin CMS, daily news updates and functionality to register for sports events.",
         "I used AngularJs and Materialize.css to build it.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
-      "images": 2,
       "link": null
     },
     {
       "id": 10,
-      "name": "Leadersboard",
       "chat": [
         "'Leadersboard' is a portal where Interviews with Leaders in the company is published.",
         "It had functionalities like admin CMS, and a very classy UI.",
         "I used AngularJs and Materialize.css to build it.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
-      "images": 3,
       "link": null
     },
     {
       "id": 11,
-      "name": "Assets Syncer",
       "chat": [
         "'Assets Syncer' is a cross-platform ElectronJs Taskbar/menu-bar application which syncs the data from Shoe Designers local machine with the server.",
         "I used ElectronJs and AngularNode to build it.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["ElectronJs", "AngularJs", "Desktop"],
-      "images": 1,
       "link": null
     },
     {
       "id": 12,
-      "name": "Solution Studio",
       "chat": [
         "'Solution Studio' is a Windows Desktop application which is used to generate customized VisualStudio Project Solutions which makes reuse of code and good practices easy.",
         "It was written in C#, WPF, XAML Ui.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["WPF", "XAML", "Desktop"],
-      "images": 3,
       "link": null
     },
     {
       "id": 13,
-      "name": "Groups",
       "chat": [
         "'Groups' is a Windows Desktop application which allows to create WhatsApp kinda groups with Contacts from Link/Skype. Skype didn't had such functionalities in the past <b class='emoji'>😉</b>.",
         "It was written in C#, WPF, XAML Ui.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> and care as always."
       ],
-      "tags": ["WPF", "XAML", "Desktop"],
-      "images": 6,
       "link": [
         "here is the link to the demo..",
         "<a href='https://1drv.ms/v/s!Aitx-4hcnVYtiYJ_EGZqDPBNLzQM_w' target='_blank' class='fancy'>https://1drv.ms/v/s!Aitx-4hcnVYtiYJ_EGZqDPBNLzQM_w</a>"
@@ -203,14 +265,11 @@
     },
     {
       "id": 14,
-      "name": "Learning Paths",
       "chat": [
         "'Learning Paths' is a website which can advice Students to choose the best possible Learning Paths for them.",
         "I used ElectronJs and AngularJs to build it.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
-      "images": 3,
       "link": [
         "here is the link to the demo..",
         "<a href='http://chin2km.github.io/My-Angular1.5-App' target='_blank' class='fancy'>http://chin2km.github.io/My-Angular1.5-App</a>"
@@ -218,14 +277,11 @@
     },
     {
       "id": 15,
-      "name": "Snake & Ladder Flexbox Board",
       "chat": [
         "'Snake & Ladder Flexbox Board' is a pet application . Its a Snake and Ladder Board built using CSS Display Flex.",
         "I used React to build it.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["ReactJs", "Flexbox"],
-      "images": 1,
       "link": [
         "here is the link to the demo..",
         "<a href='https://chin2km.github.io/Snake-and-Ladder-Board-with-FlexBox' target='_blank' class='fancy'>https://chin2km.github.io/Snake-and-Ladder-Board-with-FlexBox</a>",
@@ -235,14 +291,11 @@
     },
     {
       "id": 16,
-      "name": "Chin2km Portfolio old",
       "chat": [
         "'Chin2km portfolio'. This is my old portfolio I built in 2014 <b class='emoji'>😅</b>.",
         "I used AngularJs and lot of css3 animations in SASS to build it.",
         "I designed the UI/UX and developed it with <b class='emoji'>❤️</b> as always."
       ],
-      "tags": ["AngularJs", "ResponsiveUi", "UI/UX"],
-      "images": 7,
       "link": [
         "here is the link to the demo..",
         "<a href='http://chin2km.github.io/chin2km-old-portfolio' target='_blank' class='fancy'>http://chin2km.github.io/chin2km-old-portfolio</a>"
