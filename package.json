@@ -6,7 +6,8 @@
   "scripts": {
     "setup": "./scripts/setup",
     "start": "./scripts/start",
-    "startServer": "./scripts/startServer"
+    "startServer": "./scripts/startServer",
+    "startClient": "./scripts/startClient"
   },
   "author": "",
   "license": "ISC",

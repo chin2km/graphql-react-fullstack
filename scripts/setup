@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-npm i && cd ./server && npm i
+npm i && cd ./SERVER && npm i && cd ../CLIENT && npm i
