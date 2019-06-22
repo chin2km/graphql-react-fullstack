@@ -1,5 +1,12 @@
 body {
     padding: 0;
     margin: 0;
-    background: #dadada;
+    background: #fbfeff;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
