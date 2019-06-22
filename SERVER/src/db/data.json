@@ -3,103 +3,172 @@
     {
       "id": 0,
       "name": "Built by chin2km",
-      "tags": ["ReactJs", "StyledComponents", "Typescript"],
+      "tags": [
+        "ReactJs",
+        "StyledComponents",
+        "Typescript"
+      ],
       "images": 4
     },
     {
       "id": 1,
       "name": "StyleLounge",
-      "tags": ["ReactJs", "StyledComponents", "Typescript"],
+      "tags": [
+        "ReactJs",
+        "StyledComponents",
+        "Typescript"
+      ],
       "images": 5
     },
     {
       "id": 2,
       "name": "Halla",
-      "tags": ["ReactJs", "MaterialUi", "RabbitMq", "MongoDb", "WebSockets"],
+      "tags": [
+        "ReactJs",
+        "MaterialUi",
+        "RabbitMq",
+        "MongoDb",
+        "WebSockets"
+      ],
       "images": 7
     },
     {
       "id": 3,
       "name": "Designers Portal",
-      "tags": ["AngularJs", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "MaterialUi"
+      ],
       "images": 4
     },
     {
       "id": 4,
       "name": "StarWars",
-      "tags": ["ReactJs", "Redux", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "ReactJs",
+        "Redux",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 4
     },
     {
       "id": 5,
       "name": "Workflow System",
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 4
     },
     {
       "id": 6,
       "name": "Fantasy League",
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 3
     },
     {
       "id": 7,
       "name": "Glasswall",
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 4
     },
     {
       "id": 8,
       "name": "OnePush",
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 4
     },
     {
       "id": 9,
       "name": "Infusion",
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 2
     },
     {
       "id": 10,
       "name": "Leadersboard",
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 3
     },
     {
       "id": 11,
       "name": "Assets Syncer",
-      "tags": ["ElectronJs", "AngularJs", "Desktop"],
+      "tags": [
+        "ElectronJs",
+        "AngularJs",
+        "Desktop"
+      ],
       "images": 1
     },
     {
       "id": 12,
       "name": "Solution Studio",
-      "tags": ["WPF", "XAML", "Desktop"],
+      "tags": [
+        "WPF",
+        "XAML",
+        "Desktop"
+      ],
       "images": 3
     },
     {
       "id": 13,
       "name": "Groups",
-      "tags": ["WPF", "XAML", "Desktop"],
+      "tags": [
+        "WPF",
+        "XAML",
+        "Desktop"
+      ],
       "images": 6
     },
     {
       "id": 14,
       "name": "Learning Paths",
-      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "MaterialUi"
+      ],
       "images": 3
     },
     {
       "id": 15,
       "name": "Snake & Ladder Flexbox Board",
-      "tags": ["ReactJs", "Flexbox"],
+      "tags": [
+        "ReactJs",
+        "Flexbox"
+      ],
       "images": 1
     },
     {
       "id": 16,
       "name": "Chin2km Portfolio old",
-      "tags": ["AngularJs", "ResponsiveUi", "UI/UX"],
+      "tags": [
+        "AngularJs",
+        "ResponsiveUi",
+        "UI/UX"
+      ],
       "images": 7
     }
   ],

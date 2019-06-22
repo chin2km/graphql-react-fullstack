@@ -1,10 +1,12 @@
 import { PrimaryButton, TextField } from "office-ui-fabric-react";
-import React, { FunctionComponent, useState, useEffect } from "react";
-import styled from "styled-components";
-import { H1 } from "./BaseElements/H1";
-import { IWork } from "../models";
 import * as R from "ramda";
+import React, { FunctionComponent, useEffect, useState } from "react";
+import { Mutation } from "react-apollo";
+import styled from "styled-components";
+import { IWork } from "../models";
+import { H1 } from "./BaseElements/H1";
 import { EditableList } from "./EditableList";
+import { EDIT_WORK_MUTATION } from "../apollo/mutations";
 
 const Box = styled.div`
     display: flex;
@@ -47,6 +49,10 @@ interface IProps {
     data: IWork;
 }
 
+interface IData {
+    editWork: IWork;
+}
+
 export const Teaser: FunctionComponent<IProps> = ({ data }) => {
     const [model, setModel] = useState(data);
     useEffect(() => {
@@ -83,45 +89,62 @@ export const Teaser: FunctionComponent<IProps> = ({ data }) => {
         setModel(data);
     };
 
-    const { name, tags, chats } = model;
     return (
-        <Box tabIndex={Math.random()}>
-            <H1 as="h4" style={{ cursor: "pointer" }}>
-                {data.name}
-            </H1>
-            <Reset onClick={resetForm}>🔄</Reset>
-            <TextField label={"Project name"} value={name} type={"text"} onChange={onChangeHandler(["name"])} />
-            <EditableList
-                onAddHandler={onAddHandler}
-                onRemoveHandler={onRemoveHandler}
-                multiline={false}
-                data={tags}
-                dataKey={["tags"]}
-                label="Tags"
-                onChange={onChangeHandler}
-                horizontal={true}
-            />
-            <EditableList
-                onAddHandler={onAddHandler}
-                onRemoveHandler={onRemoveHandler}
-                multiline={true}
-                data={chats.chat}
-                dataKey={["chats", "chat"]}
-                label="Chats"
-                onChange={onChangeHandler}
-                horizontal={false}
-            />
-            <EditableList
-                multiline={true}
-                horizontal={false}
-                onAddHandler={onAddHandler}
-                onRemoveHandler={onRemoveHandler}
-                data={chats.link}
-                dataKey={["chats", "link"]}
-                label="Links"
-                onChange={onChangeHandler}
-            />
-            <PrimaryButton disabled={R.equals(data, model)}>Save</PrimaryButton>
-        </Box>
+        <Mutation<IData> mutation={EDIT_WORK_MUTATION}>
+            {(editWork, { data: updatedData, error }) => {
+                const { name, tags, chats } = model;
+                return (
+                    <Box tabIndex={Math.random()}>
+                        {error && JSON.stringify(error)}
+                        <H1 as="h4" style={{ cursor: "pointer" }}>
+                            {((updatedData && updatedData.editWork) || data).name}
+                        </H1>
+                        <Reset onClick={resetForm}>🔄</Reset>
+                        <TextField
+                            label={"Project name"}
+                            value={name}
+                            type={"text"}
+                            onChange={onChangeHandler(["name"])}
+                        />
+                        <EditableList
+                            onAddHandler={onAddHandler}
+                            onRemoveHandler={onRemoveHandler}
+                            multiline={false}
+                            data={tags}
+                            dataKey={["tags"]}
+                            label="Tags"
+                            onChange={onChangeHandler}
+                            horizontal={true}
+                        />
+                        <EditableList
+                            onAddHandler={onAddHandler}
+                            onRemoveHandler={onRemoveHandler}
+                            multiline={true}
+                            data={chats.chat}
+                            dataKey={["chats", "chat"]}
+                            label="Chats"
+                            onChange={onChangeHandler}
+                            horizontal={false}
+                        />
+                        <EditableList
+                            multiline={true}
+                            horizontal={false}
+                            onAddHandler={onAddHandler}
+                            onRemoveHandler={onRemoveHandler}
+                            data={chats.link}
+                            dataKey={["chats", "link"]}
+                            label="Links"
+                            onChange={onChangeHandler}
+                        />
+                        <PrimaryButton
+                            onClick={() => editWork({ variables: { id: model.id, work: R.omit(["id"], model) } })}
+                            disabled={R.equals(data, model)}
+                        >
+                            Save
+                        </PrimaryButton>
+                    </Box>
+                );
+            }}
+        </Mutation>
     );
 };

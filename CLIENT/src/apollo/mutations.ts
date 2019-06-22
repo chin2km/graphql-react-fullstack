@@ -1,9 +1,8 @@
 import gql from "graphql-tag";
 
-export const WORKS_QUERY = gql`
-    {
-        works {
-            id
+export const EDIT_WORK_MUTATION = gql`
+    mutation EditWork($id: Int, $work: InputWork) {
+        editWork(id: $id, work: $work) {
             name
             tags
             chats {
