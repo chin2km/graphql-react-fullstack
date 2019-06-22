@@ -3,178 +3,110 @@
     {
       "id": 0,
       "name": "Built by chin2km",
-      "tags": [
-        "ReactJs",
-        "StyledComponents",
-        "Typescript"
-      ],
+      "tags": ["ReactJs", "StyledComponents", "Typescript"],
       "images": 4
     },
     {
       "id": 1,
       "name": "StyleLounge",
-      "tags": [
-        "ReactJs",
-        "StyledComponents",
-        "Typescript"
-      ],
+      "tags": ["ReactJs", "StyledComponents", "Typescript"],
       "images": 5
     },
     {
       "id": 2,
       "name": "Halla",
-      "tags": [
-        "ReactJs",
-        "MaterialUi",
-        "RabbitMq",
-        "MongoDb",
-        "WebSockets"
-      ],
+      "tags": ["ReactJs", "MaterialUi", "RabbitMq", "MongoDb", "WebSockets"],
       "images": 7
     },
     {
       "id": 3,
       "name": "Designers Portal",
-      "tags": [
-        "AngularJs",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "MaterialUi"],
       "images": 4
     },
     {
       "id": 4,
       "name": "StarWars",
-      "tags": [
-        "ReactJs",
-        "Redux",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["ReactJs", "Redux", "ResponsiveUi", "MaterialUi"],
       "images": 4
     },
     {
       "id": 5,
       "name": "Workflow System",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
       "images": 4
     },
     {
       "id": 6,
       "name": "Fantasy League",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
       "images": 3
     },
     {
       "id": 7,
       "name": "Glasswall",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
       "images": 4
     },
     {
       "id": 8,
       "name": "OnePush",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
       "images": 4
     },
     {
       "id": 9,
       "name": "Infusion",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
       "images": 2
     },
     {
       "id": 10,
       "name": "Leadersboard",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
       "images": 3
     },
     {
       "id": 11,
       "name": "Assets Syncer",
-      "tags": [
-        "ElectronJs",
-        "AngularJs",
-        "Desktop"
-      ],
+      "tags": ["ElectronJs", "AngularJs", "Desktop"],
       "images": 1
     },
     {
       "id": 12,
       "name": "Solution Studio",
-      "tags": [
-        "WPF",
-        "XAML",
-        "Desktop"
-      ],
+      "tags": ["WPF", "XAML", "Desktop"],
       "images": 3
     },
     {
       "id": 13,
       "name": "Groups",
-      "tags": [
-        "WPF",
-        "XAML",
-        "Desktop"
-      ],
+      "tags": ["WPF", "XAML", "Desktop"],
       "images": 6
     },
     {
       "id": 14,
       "name": "Learning Paths",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "MaterialUi"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "MaterialUi"],
       "images": 3
     },
     {
       "id": 15,
       "name": "Snake & Ladder Flexbox Board",
-      "tags": [
-        "ReactJs",
-        "Flexbox"
-      ],
+      "tags": ["ReactJs", "Flexbox"],
       "images": 1
     },
     {
       "id": 16,
       "name": "Chin2km Portfolio old",
-      "tags": [
-        "AngularJs",
-        "ResponsiveUi",
-        "UI/UX"
-      ],
+      "tags": ["AngularJs", "ResponsiveUi", "UI/UX"],
       "images": 7
     }
   ],
   "chats": [
     {
       "id": 0,
+      "workId": 0,
       "chat": [
         "'Built by chin2km' is my works portfolio <b class='emoji'>😇</b> the site you are browsing now! Its a responsive web application built using React <b class='emoji'>❤️</b>",
         "Its a PWA too. By being a PWA its installable as a webapp on Mobile/Desktop. And it works offline too <b class='emoji'>⚡️</b>",
@@ -191,6 +123,7 @@
     },
     {
       "id": 1,
+      "workId": 1,
       "chat": [
         "'StyleLounge' is one of the best company I've worked for. It is a startup in Hamburg. I was an employee for them for over an year. It is a Fashion meta search Web application.",
         "I was a Full-stack NodeJs developer for them. Together we built an amazing Webapp, which is elegant, easy and intuitive to use and an extraordinary reactive message driven micro-service architecture for the products inventory.",
@@ -205,6 +138,7 @@
     },
     {
       "id": 2,
+      "workId": 2,
       "chat": [
         "'Halla' is my favourite pet project. It is a Simple real-time persistent Chat application. I built it in 2018 to learn few key technologies.",
         "It consists of 3 applications. And these are the key technologies I used in them.<br/>\n            1) halla-client: ReactJs, Socket.IO, Redux, RxJs, Redux-observable, Ramda, MomentJs <br/>\n            2) halla-db-server: RabbitMq, MongoDb, Mongoose <br/>\n            3) halla-socket-server: Socket.IO, RabbitMq <br/>\n            ",
@@ -219,6 +153,7 @@
     },
     {
       "id": 3,
+      "workId": 3,
       "chat": [
         "Designers Portal is a online shop for one of the well known Sports Shoes brand",
         "It allows the shoe designers in the company to showcase their work in progress designs and also allows them to see the designs from other designers",
@@ -230,6 +165,7 @@
     },
     {
       "id": 4,
+      "workId": 4,
       "chat": [
         "'StarWars - The Dark Side' is a pet application I developed for mastering in the (then) new technologies like React Redux Redux-Saga etc",
         "This application makes use of <a href='http://swapi.co' target='_blank' class='fancy'>http://swapi.co</a> endpoint to display details about people and things in StarWar",
@@ -242,6 +178,7 @@
     },
     {
       "id": 5,
+      "workId": 5,
       "chat": [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gdignissimos ducimus qui blanditiis praesentium voluptatum deleniti.",
         "Ut enim ad minim veniam, quis nostrud exercitation",
@@ -253,6 +190,7 @@
     },
     {
       "id": 6,
+      "workId": 6,
       "chat": [
         "'Fantasy League' is a Game where Cricket Fans in a big Corporate predict the outcome of Cricket matches and earn point when their predictions are correct",
         "I used AngularJs and Materialize.css to build it",
@@ -262,6 +200,7 @@
     },
     {
       "id": 7,
+      "workId": 7,
       "chat": [
         "'Glasswall' is an Incidents Management tool built for a big corporate in India. This tool allows the HR team in the company to effectively keep track of incidents.",
         "It had functionalities like Excel reports, calendar management, admin panels and a very complex dashboard.",
@@ -272,6 +211,7 @@
     },
     {
       "id": 8,
+      "workId": 8,
       "chat": [
         "'OnePush' is on of my pet application to do complex searches in Github repositories.",
         "I used AngularJs and Materialize.css to build it",
@@ -284,6 +224,7 @@
     },
     {
       "id": 9,
+      "workId": 9,
       "chat": [
         "'Infusion' is the website for annual sports meet for a big Corporate Company in India.",
         "It had functionalities like admin CMS, daily news updates and functionality to register for sports events.",
@@ -294,6 +235,7 @@
     },
     {
       "id": 10,
+      "workId": 10,
       "chat": [
         "'Leadersboard' is a portal where Interviews with Leaders in the company is published.",
         "It had functionalities like admin CMS, and a very classy UI.",
@@ -304,6 +246,7 @@
     },
     {
       "id": 11,
+      "workId": 11,
       "chat": [
         "'Assets Syncer' is a cross-platform ElectronJs Taskbar/menu-bar application which syncs the data from Shoe Designers local machine with the server.",
         "I used ElectronJs and AngularNode to build it.",
@@ -313,6 +256,7 @@
     },
     {
       "id": 12,
+      "workId": 12,
       "chat": [
         "'Solution Studio' is a Windows Desktop application which is used to generate customized VisualStudio Project Solutions which makes reuse of code and good practices easy.",
         "It was written in C#, WPF, XAML Ui.",
@@ -322,6 +266,7 @@
     },
     {
       "id": 13,
+      "workId": 13,
       "chat": [
         "'Groups' is a Windows Desktop application which allows to create WhatsApp kinda groups with Contacts from Link/Skype. Skype didn't had such functionalities in the past <b class='emoji'>😉</b>.",
         "It was written in C#, WPF, XAML Ui.",
@@ -334,6 +279,7 @@
     },
     {
       "id": 14,
+      "workId": 14,
       "chat": [
         "'Learning Paths' is a website which can advice Students to choose the best possible Learning Paths for them.",
         "I used ElectronJs and AngularJs to build it.",
@@ -346,6 +292,7 @@
     },
     {
       "id": 15,
+      "workId": 15,
       "chat": [
         "'Snake & Ladder Flexbox Board' is a pet application . Its a Snake and Ladder Board built using CSS Display Flex.",
         "I used React to build it.",
@@ -360,6 +307,7 @@
     },
     {
       "id": 16,
+      "workId": 16,
       "chat": [
         "'Chin2km portfolio'. This is my old portfolio I built in 2014 <b class='emoji'>😅</b>.",
         "I used AngularJs and lot of css3 animations in SASS to build it.",

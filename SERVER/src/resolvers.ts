@@ -22,14 +22,23 @@ export const resolvers: IResolvers = {
       }
     },
     Mutation: {
-      addWork: async (_, args) => {
-        const Work = await CONNECTION.addWork({name: args.name});
+      addWork: async (_, {work}) => {
+        const {chats, ...restWork} = work;
+        const Work = await CONNECTION.addWork(restWork);
         await CONNECTION.addChat({
           workId: Work.id,
-          ...args.chats
+          ...chats
         });
         return Work;
       },
-      editWork: (_, args) => CONNECTION.editWork(args.id, args.name)
+      editWork: async (_, {id, work}) => {
+        const {chats, ...restWork} = work;
+        const editedWork = await CONNECTION.editWork(id, restWork);
+        await CONNECTION.editChats({
+          workId: editedWork.id,
+          ...chats
+        });
+        return editedWork;
+      }
     }
   };

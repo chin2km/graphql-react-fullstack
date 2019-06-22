@@ -39,12 +39,20 @@ export const CONNECTION = {
         })
         return response.json();
     },
-    async editWork(id: number, name: string) {
+    async editChats(chat: any) {
+        const response = await fetch(`http://localhost:3000/chats/${chat.workId}`, {
+            method: "PATCH",
+            body: JSON.stringify(chat),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+        })
+        return response.json();
+    },
+    async editWork(id: number, work: IWork) {
         const response = await fetch(`http://localhost:3000/works/${id}`, {
             method: "PATCH",
-            body: JSON.stringify({
-                name,
-            }),
+            body: JSON.stringify(work),
             headers: {
                 'Content-Type': 'application/json'
             },

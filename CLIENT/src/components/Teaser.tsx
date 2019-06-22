@@ -10,7 +10,6 @@ const Box = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;
     transition: all 0.5s ease-in-out;
     color: #000;
     margin: 1rem;
@@ -19,12 +18,31 @@ const Box = styled.div`
     box-shadow: 2px 3px 15px #5e318c63;
     border: 1px solid #8d27da;
     text-align: left;
+    height: 1rem;
+    overflow: hidden;
+    &:focus,
+    &:focus-within {
+        height: auto;
+        overflow: visible;
+        outline: none;
+    }
 
     > * {
         margin-bottom: 1rem;
     }
+    position: relative;
 `;
-
+const Reset = styled.div`
+    height: 15px;
+    width: 15px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: -2.5rem;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+    }
+`;
 interface IProps {
     data: IWork;
 }
@@ -61,11 +79,17 @@ export const Teaser: FunctionComponent<IProps> = ({ data }) => {
         const updatedList = R.path(path, model) as string[];
         setModel({ ...R.assocPath(path, R.append("", updatedList), model) });
     };
+    const resetForm = (): void => {
+        setModel(data);
+    };
 
     const { name, tags, chats } = model;
     return (
-        <Box>
-            <H1 as="h4">{data.name}</H1>
+        <Box tabIndex={Math.random()}>
+            <H1 as="h4" style={{ cursor: "pointer" }}>
+                {data.name}
+            </H1>
+            <Reset onClick={resetForm}>🔄</Reset>
             <TextField label={"Project name"} value={name} type={"text"} onChange={onChangeHandler(["name"])} />
             <EditableList
                 onAddHandler={onAddHandler}

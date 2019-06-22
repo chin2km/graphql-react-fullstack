@@ -25,12 +25,17 @@ export const typeDefs = gql`
   }
 
   type Mutation {
-    addWork(name: String, chats: inputChat): Work
-    editWork(id: Int, name: String): Work
+    addWork(work: InputWork): Work
+    editWork(id: Int, work: InputWork): Work
   }
 
-  input inputChat {
+  input InputChat {
     chat: [String]
     link: [String]
+  }
+  input InputWork {
+    name: String
+    tags: [String]
+    chats: InputChat
   }
 `;
