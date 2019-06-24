@@ -3,5 +3,8 @@
 set -e
 export PATH=node_modules/.bin:$PATH
 
-json-server --watch src/db/data.json
+json-server src/db/data.json
+
+# if in dev use watch
+# json-server src/db/data.json
 

@@ -34,3 +34,38 @@ export const Works: FunctionComponent = () => (
         </Layout>
     </>
 );
+
+/**
+ * using compose
+ */
+/*
+interface IData {
+    data: {
+        works: IWork[];
+    };
+    error: Error;
+    loading: boolean;
+}
+
+const _Works: FunctionComponent<IData> = props => {
+    const { data, error, loading } = props;
+    return (
+        <>
+            <H1 as="h2">{`< works />`}</H1>
+            <Layout>
+                {error ? (
+                    <div>Error fetching data</div>
+                ) : loading ? (
+                    <Spinner label="fetching works..." />
+                ) : (
+                    data &&
+                    data.works &&
+                    data.works.map((work: any, index: number) => <Teaser key={index} data={work} />)
+                )}
+            </Layout>
+        </>
+    );
+};
+
+export const Works = compose(graphql(WORKS_QUERY))(_Works);
+*/

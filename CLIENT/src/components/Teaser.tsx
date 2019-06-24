@@ -7,6 +7,7 @@ import { IWork } from "../models";
 import { H1 } from "./BaseElements/H1";
 import { EditableList } from "./EditableList";
 import { EDIT_WORK_MUTATION } from "../apollo/mutations";
+import { WORKS_QUERY } from "../apollo";
 
 const Box = styled.div`
     display: flex;
@@ -90,14 +91,21 @@ export const Teaser: FunctionComponent<IProps> = ({ data }) => {
     };
 
     return (
-        <Mutation<IData> mutation={EDIT_WORK_MUTATION}>
-            {(editWork, { data: updatedData, error }) => {
+        <Mutation<IData>
+            mutation={EDIT_WORK_MUTATION}
+            refetchQueries={[
+                {
+                    query: WORKS_QUERY,
+                },
+            ]}
+        >
+            {(editWork, { error }) => {
                 const { name, tags, chats } = model;
                 return (
                     <Box tabIndex={Math.random()}>
                         {error && JSON.stringify(error)}
                         <H1 as="h4" style={{ cursor: "pointer" }}>
-                            {((updatedData && updatedData.editWork) || data).name}
+                            {data.name}
                         </H1>
                         <Reset onClick={resetForm}>🔄</Reset>
                         <TextField
