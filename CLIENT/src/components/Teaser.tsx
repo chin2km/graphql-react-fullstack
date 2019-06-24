@@ -1,4 +1,4 @@
-import { PrimaryButton, TextField } from "office-ui-fabric-react";
+import { PrimaryButton, TextField, Spinner } from "office-ui-fabric-react";
 import * as R from "ramda";
 import React, { FunctionComponent, useEffect, useState } from "react";
 import { Mutation } from "react-apollo";
@@ -98,12 +98,14 @@ export const Teaser: FunctionComponent<IProps> = ({ data }) => {
                     query: WORKS_QUERY,
                 },
             ]}
+            awaitRefetchQueries={true}
         >
-            {(editWork, { error }) => {
+            {(editWork, { error, loading }) => {
                 const { name, tags, chats } = model;
                 return (
                     <Box tabIndex={Math.random()}>
                         {error && JSON.stringify(error)}
+                        {loading && <Spinner label="Saving work data..." />}
                         <H1 as="h4" style={{ cursor: "pointer" }}>
                             {data.name}
                         </H1>
