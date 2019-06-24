@@ -1,5 +1,5 @@
 {
-    "name": "react-pwa-starter-typescript",
+    "name": "graphql-react-client",
     "version": "1.0.0",
     "description": "A dead simple react-pwa starter in typescript",
     "scripts": {

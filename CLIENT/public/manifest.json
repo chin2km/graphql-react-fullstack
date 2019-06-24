@@ -1,6 +1,6 @@
 {
-    "short_name": "react-pwa-starter-typescript",
-    "name": "react-pwa-starter-typescript",
+    "short_name": "graphql-react-client",
+    "name": "graphql-react-client",
     "icons": [
         {
             "src": "favicon.ico",
